@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.4.7)  7 JUN 2012 14:51
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.4.7)  7 JUN 2012 15:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -188,9 +188,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 74--75
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 76.
-
-LaTeX Warning: Reference `sec:lm' on page 2 undefined on input line 101.
-
 LaTeX Font Info:    Try loading font information for OT1+pcr on input line 109.
 
 (/usr/share/texmf-texlive/tex/latex/psnfss/ot1pcr.fd
@@ -225,43 +222,64 @@ P\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 c[]\OMS/cmsy/m/n/10.95 j\OML/cmm/m/it/
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
-(./scode.tex [4]
-Overfull \hbox (12.87701pt too wide) in paragraph at lines 78--108
-[][] [] 
+(./substitute.tex
+
+LaTeX Warning: Citation `csr3text' on page 4 undefined on input line 23.
+
+
+LaTeX Warning: Citation `Stolcke2002' on page 4 undefined on input line 26.
+
+[4]
+Underfull \hbox (badness 5847) in paragraph at lines 50--59
+\OT1/ptm/m/n/10.95 where $\OML/cmm/m/it/10.95 w[]$ \OT1/ptm/m/n/10.95 rep-re-se
+nts the se-quence of words
  []
 
 
-LaTeX Warning: Reference `sec:lm' on page 5 undefined on input line 124.
+Underfull \hbox (badness 1308) in paragraph at lines 60--64
+[]\OT1/ptm/m/n/10.95 Near the sen-tence bound-aries the ap-pro-pri-ate
+ []
 
-[5] <plot-p.pdf, id=33, 216.81pt x 144.54pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+\OT1/ptm/m/n/9 please see [].
+ []
+
+
+Underfull \hbox (badness 2653) in paragraph at lines 65--76
+\OT1/ptm/m/n/10.95 sub-sti-tutes and their un-nor-mal-ized prob-a-bil-i-ties
+ []
+
+) (./scode.tex [5]) (./experiments.tex
+Overfull \hbox (12.87701pt too wide) in paragraph at lines 6--36
+[][] [] 
+ []
+
+[6] <plot-p.pdf, id=36, 216.81pt x 144.54pt>
 File: plot-p.pdf Graphic file (type pdf)
  <use plot-p.pdf>
-<plot-d.pdf, id=35, 216.81pt x 144.54pt>
+<plot-d.pdf, id=38, 216.81pt x 144.54pt>
 File: plot-d.pdf Graphic file (type pdf)
  <use plot-d.pdf>
-<plot-z.pdf, id=37, 216.81pt x 144.54pt>
+<plot-z.pdf, id=40, 216.81pt x 144.54pt>
 File: plot-z.pdf Graphic file (type pdf)
- <use plot-z.pdf> [6 <./plot-p.pdf>]
-
-LaTeX Warning: Reference `sec:lm' on page 7 undefined on input line 251.
-
-<plot-s.pdf, id=50, 216.81pt x 144.54pt>
+ <use plot-z.pdf> [7 <./plot-p.pdf>]
+<plot-s.pdf, id=54, 216.81pt x 144.54pt>
 File: plot-s.pdf Graphic file (type pdf)
  <use plot-s.pdf>
-Underfull \hbox (badness 2020) in paragraph at lines 274--280
+Underfull \hbox (badness 2020) in paragraph at lines 202--208
 \OT1/ptm/m/n/10.95 i-cal and or-tho-graphic fea-tures sig-nif-i-cantly im-
  []
 
 
-Underfull \hbox (badness 2285) in paragraph at lines 274--280
+Underfull \hbox (badness 2285) in paragraph at lines 202--208
 \OT1/ptm/m/n/10.95 proves part-of-speech in-duc-tion with an HMM
  []
 
-[7 <./plot-d.pdf> <./plot-z.pdf> <./plot-s.pdf>]
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 311.
-
-<hinton.png, id=80, 586.8324pt x 442.2924pt>
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 239.
+[8 <./plot-d.pdf> <./plot-z.pdf> <./plot-s.pdf>]
+<hinton.png, id=83, 586.8324pt x 442.2924pt>
 File: hinton.png Graphic file (type png)
  <use hinton.png>)
 (./discussion.tex) (./contribution.tex
@@ -269,7 +287,7 @@ Underfull \hbox (badness 1931) in paragraph at lines 6--9
 \OT1/ptm/m/n/10.95 matic rep-re-sen-ta-tions of word con-text and
  []
 
-[8]
+
 Underfull \hbox (badness 1132) in paragraph at lines 13--16
 \OT1/ptm/m/n/10.95 su-per-vised part-of-speech in-duc-tion to 80%
  []
@@ -300,15 +318,12 @@ Underfull \hbox (badness 2134) in paragraph at lines 4--8
 ptm/m/n/10 ,
  []
 
-
+[9]
 Underfull \hbox (badness 5022) in paragraph at lines 28--36
 []\OT1/ptm/m/n/10 Taylor Berg-Kirkpatrick, Alexan-dre Bouchard-C[]ot[]e,
  []
 
 
-Underfull \vbox (badness 1442) has occurred while \output is active []
-
- [9 <./hinton.png>]
 Underfull \hbox (badness 1314) in paragraph at lines 73--79
 []\OT1/ptm/m/n/10 Christos Christodoulopou-los, Sharon Gold-wa-ter, and
  []
@@ -318,41 +333,35 @@ Underfull \hbox (badness 1314) in paragraph at lines 82--88
 []\OT1/ptm/m/n/10 Christos Christodoulopou-los, Sharon Gold-wa-ter, and
  []
 
-
+[10 <./hinton.png>]
 Underfull \hbox (badness 2351) in paragraph at lines 202--206
 []\OT1/ptm/m/n/10 Mitchell P. Mar-cus, Beat-rice San-torini, Mary Ann
  []
 
-[10]) [11
-
-] (./posind2012.aux)
-
-LaTeX Warning: There were undefined references.
-
- ) 
+) [11] (./posind2012.aux) ) 
 Here is how much of TeX's memory you used:
- 1917 strings out of 495061
- 23945 string characters out of 1182622
- 88382 words of memory out of 3000000
- 5034 multiletter control sequences out of 15000+50000
- 35731 words of font info for 85 fonts, out of 3000000 for 9000
+ 1932 strings out of 495061
+ 24114 string characters out of 1182622
+ 88415 words of memory out of 3000000
+ 5041 multiletter control sequences out of 15000+50000
+ 37970 words of font info for 89 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  27i,13n,20p,246b,255s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/share/texmf-texlive/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-texli
-ve/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-texlive/fonts/ty
-pe1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-texlive/fonts/type1/public/
-amsfonts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm
-/cmmi6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi8.pfb><
-/usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/t
-exmf-texlive/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-texlive/
-fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/p
-ublic/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfo
-nts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti1
-0.pfb></usr/share/texmf-texlive/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/
-texmf-texlive/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-texlive/fonts/
-type1/urw/times/utmr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmr
-i8a.pfb>
-Output written on posind2012.pdf (11 pages, 302435 bytes).
+{/usr/share/texmf-texlive/fonts/enc/dvips/base/8r.en
+c}</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/sha
+re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-te
+xlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts
+/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-texlive/fonts/type1/publi
+c/amsfonts/cm/cmmi8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/c
+m/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr6.pfb><
+/usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/te
+xmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive
+/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/type1
+/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-texlive/fonts/type1/urw/courie
+r/ucrr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmb8a.pfb></usr/s
+hare/texmf-texlive/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-texlive/f
+onts/type1/urw/times/utmri8a.pfb>
+Output written on posind2012.pdf (11 pages, 310193 bytes).
 PDF statistics:
  143 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
